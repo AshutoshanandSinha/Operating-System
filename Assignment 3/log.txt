@@ -1,0 +1,143 @@
+Enter Name for 1 client: 
+Ashu
+Enter Name for 2 client: 
+Jay
+Enter Name for 3 client: 
+Parth
+Enter Name for 4 client: 
+Chan
+================================
+Initialize/Fetch Max amount :
+================================
+Enter max amount for account type checkingsAccount :
+500
+Enter max amount for account type savingsAccount :
+500
+Enter max amount for account type fixedDepositAccount :
+500
+Enter max amount for account type RecurringDeposit :
+500
+================================
+Allocate Resources:
+================================
+Enter amount to give to client Ashu for account type: checkingsAccount
+0
+Enter amount to give to client Ashu for account type: savingsAccount
+100
+Enter amount to give to client Ashu for account type: fixedDepositAccount
+0
+Enter amount to give to client Ashu for account type: RecurringDeposit
+100
+Enter amount to give to client Jay for account type: checkingsAccount
+0
+Enter amount to give to client Jay for account type: savingsAccount
+0
+Enter amount to give to client Jay for account type: fixedDepositAccount
+100
+Enter amount to give to client Jay for account type: RecurringDeposit
+100
+Enter amount to give to client Parth for account type: checkingsAccount
+100
+Enter amount to give to client Parth for account type: savingsAccount
+200
+Enter amount to give to client Parth for account type: fixedDepositAccount
+0
+Enter amount to give to client Parth for account type: RecurringDeposit
+100
+Enter amount to give to client Chan for account type: checkingsAccount
+0
+Enter amount to give to client Chan for account type: savingsAccount
+0
+Enter amount to give to client Chan for account type: fixedDepositAccount
+100
+Enter amount to give to client Chan for account type: RecurringDeposit
+0
+================================
+Required Resources:
+================================
+Enter amount to give to client Ashu for account type: checkingsAccount
+200
+Enter amount to give to client Ashu for account type: savingsAccount
+100
+Enter amount to give to client Ashu for account type: fixedDepositAccount
+200
+Enter amount to give to client Ashu for account type: RecurringDeposit
+300
+Enter amount to give to client Jay for account type: checkingsAccount
+100
+Enter amount to give to client Jay for account type: savingsAccount
+200
+Enter amount to give to client Jay for account type: fixedDepositAccount
+100
+Enter amount to give to client Jay for account type: RecurringDeposit
+400
+Enter amount to give to client Parth for account type: checkingsAccount
+300
+Enter amount to give to client Parth for account type: savingsAccount
+100
+Enter amount to give to client Parth for account type: fixedDepositAccount
+0
+Enter amount to give to client Parth for account type: RecurringDeposit
+0
+Enter amount to give to client Chan for account type: checkingsAccount
+0
+Enter amount to give to client Chan for account type: savingsAccount
+0
+Enter amount to give to client Chan for account type: fixedDepositAccount
+200
+Enter amount to give to client Chan for account type: RecurringDeposit
+100
+================================
+Maximum:
+================================
+500.0 500.0 500.0 500.0 
+================================
+Available:
+================================
+400.0 200.0 300.0 200.0 
+================================
+Currently Allocated
+================================
+For client : Ashu
+0.0 100.0 0.0 100.0 
+For client : Jay
+0.0 0.0 100.0 100.0 
+For client : Parth
+100.0 200.0 0.0 100.0 
+For client : Chan
+0.0 0.0 100.0 0.0 
+
+================================
+Required Resource
+================================
+For client : Ashu
+200.0 100.0 200.0 300.0 
+For client : Jay
+100.0 200.0 100.0 400.0 
+For client : Parth
+300.0 100.0 0.0 0.0 
+For client : Chan
+0.0 0.0 200.0 100.0 
+
+CHECKING FOR SAFE SEQUENCE...
+Accessing Client :Ashu
+Resourse can be allocated to Ashu
+Updating Available...
+Accessing Client :Jay
+Resource can not be allocated to Jay currently.
+Accessing Client :Parth
+Resourse can be allocated to Parth
+Updating Available...
+Accessing Client :Chan
+Resourse can be allocated to Chan
+Updating Available...
+Accessing Client :Ashu
+Accessing Client :Jay
+Resourse can be allocated to Jay
+Updating Available...
+Accessing Client :Parth
+Accessing Client :Chan
+Safe Sequence is as follows :
+Ashu-->Parth-->Chan-->Jay-->
+Process finished with exit code 0
+
