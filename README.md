@@ -1,1 +1,1 @@
-#This is showcase of different implementation of Operatint System Concepts
+#This is showcase of different implementation of Operating System Concepts
